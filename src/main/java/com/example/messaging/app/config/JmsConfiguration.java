@@ -16,7 +16,7 @@ import org.springframework.jms.support.converter.SimpleMessageConverter;
 public class JmsConfiguration {
 
 	private static final String BROKER_URL = "tcp://127.0.0.1:61616";
-	private static final String QUEUE = "v";
+	private static final String QUEUE = "messaging_app_queue";
 
 
 	@Bean
